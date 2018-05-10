@@ -1,6 +1,7 @@
 version: '2'
 services:
   minio:
+    restart: always
     image: minio/minio
     ports:
        - "${MINIO_PORT}:9000"
