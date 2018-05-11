@@ -10,3 +10,9 @@ S3_SECRET=14MAuAetrv7y3E6zAuUOimXy5KYRqrZKw3cWuEe/
 ### port of local minio
 MINIO_PORT=9000
 ```
+
+Start all with:
+
+```bash
+docker-compose up -d
+```
